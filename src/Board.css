@@ -1,0 +1,44 @@
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfe3e6;
+  border-radius: 3px;
+  height: auto;
+  min-height: 32px;
+  width: 300px;
+  padding: 4px;
+  margin: 20px;
+  transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
+}
+.add-list {
+    background: #fff;
+    border: none;
+    height: 35px;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    display: block;
+    margin: 0;
+    transition: margin 85ms ease-in,background 85ms ease-in;
+    width: 100%;
+}
+
+.list-controls {
+  height: 32px;
+  margin: 4px 0 0;
+  display: none;
+}
+.list-controls.active {
+  display: block;
+}
+.add-list-button {
+  background-color: #5aac44;
+  box-shadow: 0 1px 0 0 #3f6f21;
+  border: none;
+  color: #fff;
+  float: left;
+  min-height: 30px;
+  height: 30px;
+  margin-top: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
