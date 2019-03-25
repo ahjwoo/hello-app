@@ -7,9 +7,11 @@ import BoardWrapper from './Boardwrapper';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="wrapper">
         <h2>Hello App</h2>
+        <div className="App">
         <BoardWrapper/>
+        </div>
       </div>
     );
   }

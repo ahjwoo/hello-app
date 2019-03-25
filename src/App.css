@@ -1,6 +1,7 @@
-.App {
-  text-align: center;
+.wrapper {
   background-color: #0079BF;
+}
+.App {
   color: white;
   height: 100vh;
 }

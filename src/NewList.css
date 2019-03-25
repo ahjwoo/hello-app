@@ -1,0 +1,13 @@
+.new-list-wrapper {
+  margin: 20px;
+  background-color: #e3e7e9;
+  width: 300px;
+  height: 32px;
+  padding: 4px;
+  color: black;
+  order: -1;
+  display: none;
+}
+.new-list-wrapper.active {
+  display: block;
+}
